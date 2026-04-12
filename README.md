@@ -52,30 +52,30 @@ The project analyzes **53,772 real diamonds** to answer key business questions:
 | Classification | Random Forest (500 trees) | Predict cut grade (Accuracy = 78.11%) |
 
 ---
-
 ## Project Structure
-dm-diamonds-analysis/
-│
-├── data/
-│   ├── diamonds.csv               ← Raw dataset from Kaggle
-│   ├── eda_plots.png              ← EDA visualizations
-│   ├── correlation.png            ← Correlation heatmap
-│   ├── boxplots.png               ← Box plots by category
-│   ├── data_quality.png           ← Data quality analysis
-│   ├── clustering_optimal_k.png   ← Elbow + Silhouette plots
-│   ├── clustering_results.png     ← Final clustering results
-│   ├── regression_results.png     ← Regression model results
-│   ├── anomaly_detection.png      ← Anomaly detection results
-│   └── classification_results.png ← Classification results
-│
-├── notebooks/
-│   └── diamonds_analysis.ipynb    ← Full analysis notebook
-│
-├── dashboard/
-│   └── app.py                     ← Streamlit dashboard
-│
-├── requirements.txt               ← Python dependencies
-└── README.md                      ← This file
+
+    dm-diamonds-analysis/
+    │
+    ├── data/
+    │   ├── diamonds.csv               ← Raw dataset from Kaggle
+    │   ├── eda_plots.png              ← EDA visualizations
+    │   ├── correlation.png            ← Correlation heatmap
+    │   ├── boxplots.png               ← Box plots by category
+    │   ├── data_quality.png           ← Data quality analysis
+    │   ├── clustering_optimal_k.png   ← Elbow + Silhouette plots
+    │   ├── clustering_results.png     ← Final clustering results
+    │   ├── regression_results.png     ← Regression model results
+    │   ├── anomaly_detection.png      ← Anomaly detection results
+    │   └── classification_results.png ← Classification results
+    │
+    ├── notebooks/
+    │   └── diamonds_analysis.ipynb    ← Full analysis notebook
+    │
+    ├── dashboard/
+    │   └── app.py                     ← Streamlit dashboard
+    │
+    ├── requirements.txt               ← Python dependencies
+    └── README.md                      ← This file
 
 ---
 
