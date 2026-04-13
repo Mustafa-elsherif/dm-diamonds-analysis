@@ -78,6 +78,8 @@ The project analyzes **53,772 real diamonds** to answer key business questions:
     └── README.md                      ← This file
 
 ---
+## 🚀 Live Demo
+[View the Dashboard](https://dm-diamonds-analysis.streamlit.app)
 
 ## Setup Instructions
 
