@@ -23,7 +23,8 @@ st.set_page_config(
     layout="wide"
 )
 
-DATA_PATH = 'C:/Users/musta/dm-diamonds-analysis/data/diamonds.csv'
+import os
+DATA_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'diamonds.csv')
 
 # ============================================================
 # REFERENCE GUIDES
