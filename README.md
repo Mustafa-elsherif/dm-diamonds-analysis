@@ -23,10 +23,10 @@ The project analyzes **53,772 real diamonds** to answer key business questions:
 
 ## Team
 
- Name 
-
-| Mustafa Nabil | 
-| Rawda Attia |
+| Name | GitHub |
+|------|--------|
+| Mustafa Nabil | [@Mustafa-elsherif](https://github.com/Mustafa-elsherif) |
+| Rawda Attia | [@rawda0](https://github.com/rawda0) |
 
 ---
 
