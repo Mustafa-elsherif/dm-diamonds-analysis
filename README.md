@@ -169,8 +169,8 @@ Could be pricing errors, data issues, or rare gems worth highlighting.
 | Deployment | Interactive Streamlit dashboard | ✅ |
 
 ---
-
 ## Requirements
+```
 pandas
 numpy
 matplotlib
@@ -180,7 +180,9 @@ xgboost
 plotly
 streamlit
 jupyter
----
+```
 
+
+---
 *Diamond Price Analysis · Data Mining Final Project · Python & Streamlit*
 
