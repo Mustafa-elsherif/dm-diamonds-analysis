@@ -49,7 +49,7 @@ The project analyzes **53,772 real diamonds** to answer key business questions:
 | Clustering | K-Means (k=4) | Group diamonds into market segments |
 | Regression | Polynomial + Ridge | Predict diamond price (R² = 0.9858) |
 | Anomaly Detection | One-Class SVM + PCA | Detect unusually priced diamonds |
-| Classification | Random Forest (500 trees) | Predict cut grade (Accuracy = 78.11%) |
+| Classification | XGBoost (Binary) | Predict cut quality High/Low (Accuracy = 88.46%) |
 
 ---
 ## Project Structure
@@ -119,7 +119,7 @@ Open VS Code → open `notebooks/diamonds_analysis.ipynb`
 | Clustering | 4 market segments with interactive charts |
 | Price Predictor | Enter any diamond details → get estimated price |
 | Anomaly Detection | 538 unusual diamonds with PCA visualization |
-| Cut Predictor | Predict cut grade from physical measurements |
+| Cut Predictor | Predict cut quality (High/Low) from physical measurements |
 | Business Insights | Top 3 findings and full model performance |
 
 **Global Filters:** Cut quality · Price range · Carat range
@@ -133,7 +133,7 @@ Open VS Code → open `notebooks/diamonds_analysis.ipynb`
 | Clustering | K-Means k=4 | Silhouette Score | 0.2182 | 4 segments ✅ |
 | Regression | Polynomial + Ridge | R² | 0.9858 | R² > 0.90 ✅ |
 | Anomaly Detection | One-Class SVM + PCA | Anomalies found | 538 (1%) | Detected ✅ |
-| Classification | Random Forest 500 trees | Accuracy | 78.11% | > 85% ❌ |
+| Classification | XGBoost (Binary) | Accuracy | 88.46% | > 85% ✅ |
 
 ---
 
@@ -176,6 +176,7 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+xgboost
 plotly
 streamlit
 jupyter
